@@ -4,6 +4,9 @@ Simple broadcast server that allows clients to connect and send messages, which 
 ### Commands
 
 ````bash
+#This command will build a project
+go build ./
+
 #This command will start the server.
 broadcast-server --operation start --port 8080
 
